@@ -150,7 +150,10 @@ export default function Home() {
       data-cursor-color="#8C6A6A"
     >
       
-      <div id="hero" className="relative z-10 mx-auto flex min-h-screen max-w-6xl flex-col items-start justify-center gap-20 px-6 py-24 md:flex-row md:items-start md:justify-center md:py-32">
+      <div
+  id="hero"
+  className="relative z-10 mx-auto flex min-h-[80vh] max-w-6xl flex-col items-center justify-center gap-16 px-6 pt-16 pb-12 md:flex-row md:items-center md:pt-20 md:pb-16"
+>
       <InteractivePortrait />
 
         <div className="w-full max-w-xl shrink-0 text-left md:flex-1 md:min-w-0">

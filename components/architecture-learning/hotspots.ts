@@ -14,7 +14,7 @@ export const ARCHITECTURE_HOTSPOTS: HotspotData[] = [
   {
     id: "entry",
     step: 1,
-    topPct: 75,
+    topPct: 55,
     leftPct: 75,
     label: "Entry / Threshold",
     header: "Entry / Threshold",
@@ -26,7 +26,7 @@ export const ARCHITECTURE_HOTSPOTS: HotspotData[] = [
     id: "living",
     step: 2,
     topPct: 25,
-    leftPct: 50,
+    leftPct: 60,
     label: "Living Space",
     header: "Living Space",
     body: "I’ve learned to design for shared moments, where interaction feels natural, not forced.",
@@ -36,7 +36,7 @@ export const ARCHITECTURE_HOTSPOTS: HotspotData[] = [
   {
     id: "courtyard",
     step: 3,
-    topPct: 50,
+    topPct: 40,
     leftPct: 50,
     label: "Courtyard",
     header: "Courtyard",
@@ -47,7 +47,7 @@ export const ARCHITECTURE_HOTSPOTS: HotspotData[] = [
   {
     id: "garden",
     step: 4,
-    topPct: 80,
+    topPct: 60,
     leftPct: 60,
     label: "Garden / Flow",
     header: "Garden / Flow",
