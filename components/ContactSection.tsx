@@ -105,7 +105,7 @@ export function ContactSection() {
 
               <div className="flex min-w-0 justify-center md:justify-end">
                 <a
-                  href={"https://drive.google.com/file/d/1JRro_itkRzrwEZn7gYJ1fRs3l6OkM1BG/view?usp=sharing"}
+                  href={"https://drive.google.com/file/d/1x7QhMHn6E54zFsMKRDC0y3j7MQ8ktG7a/view?usp=sharing"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative block aspect-[4/3] w-full max-w-md overflow-hidden rounded-2xl border border-neutral-200/70 bg-white/40 shadow-sm backdrop-blur-sm transition duration-300 ease-out hover:scale-[1.02] hover:opacity-[0.98]"

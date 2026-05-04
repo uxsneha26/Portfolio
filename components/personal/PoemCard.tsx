@@ -404,7 +404,7 @@ const prev = () => {
   }}
   className="absolute -left-16 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center h-10 w-10 text-lg text-[#815555] rounded-full bg-white/70 backdrop-blur-sm shadow-md hover:bg-white transition"
 >
-&lt;
+<ChevronLeft size={18} strokeWidth={1.5} />
 </button>
 
 {/* RIGHT CHEVRON */}
@@ -415,7 +415,7 @@ const prev = () => {
   }}
   className="absolute -right-16 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center h-10 w-10 text-lg text-[#815555] rounded-full bg-white/70 backdrop-blur-sm shadow-md hover:bg-white transition"
 >
-&gt;
+<ChevronRight size={18} strokeWidth={1.5} />
 </button>
 </div>
   </div>

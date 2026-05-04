@@ -177,16 +177,14 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
           >
             Contact
           </Link>
-          <a
-            href={resumeHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`${bodySerif.className} ${linkBase}`}
-          >
-            About
-          </a>
+          <Link
+  href="/about"
+  className={`${bodySerif.className} ${linkBase} ${active === "about" ? "text-[#a8a29e]" : ""}`}
+>
+  About
+</Link>
+</div>
         </div>
-      </div>
     </nav>
   );
 }

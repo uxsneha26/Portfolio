@@ -335,7 +335,7 @@ export default function AboutPage() {
                 />
                 <ExperienceProjectCard
                   revealClassName="about-reveal about-delay-380ms"
-                  title="JK Cement"
+                  title="Leading Cement Manufacturing & Supply Chain"
                   tags={["Enterprise UX", "Platform Thinking"]}
                   description="Led experience design for a unified enterprise platform consolidating 9 disparate applications across sales, finance, and supply chain. Established scalable interaction patterns and workflows, reducing fragmentation and aligning cross-functional business operations."
                 />
