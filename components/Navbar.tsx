@@ -122,7 +122,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
 
         
           <Link
-            href="/#projects"
+            href="/projects"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "projects" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {
@@ -135,7 +135,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
             Works
           </Link>
           <Link
-            href="/#personal"
+            href="/personal"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "personal" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {
@@ -148,7 +148,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
             Gallery
           </Link>
           <Link
-            href="/#hero"
+            href="/hero"
             scroll={false}
             className={`${caveat.className} text-[18px] md:text-[28px] leading-none transition-colors duration-300 ${
               active === "hero"
@@ -165,7 +165,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
             SS
           </Link>
           <Link
-            href="/#contact"
+            href="/contact"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "contact" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {

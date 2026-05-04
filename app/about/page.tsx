@@ -87,7 +87,9 @@ function ArchivePostCard({
         <p className={`${bodyClass} mt-3 text-[0.95rem] leading-relaxed md:text-base`}>{description}</p>
         <p className={`${metaClass} mt-4 normal-case tracking-[0.08em] text-neutral-500`}> May 1, 2026</p>
         <a
-          href={link}
+  href={link}
+  target="_blank"
+  rel="noopener noreferrer"
           className={`${labelSans.className} mt-5 inline-flex w-fit text-sm font-medium tracking-wide text-neutral-700 transition-all duration-300 ease-out hover:underline hover:opacity-80`}
         >
           Read on Medium →
