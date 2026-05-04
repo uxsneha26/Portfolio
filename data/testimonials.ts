@@ -42,8 +42,8 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: "t4",
-    name: "Ameet Palkar",
-    designation: "Design Director",
+    name: "Aerathe Rajeev Radhakrishnan Nair",
+    designation: "Design Program Manager",
     company: "Lollypop Design Studio",
     text: "Editorial tone without fluff. Stakeholders trusted the flows because the rationale was always visible.",
     image: "/testimonials/4.jpg",

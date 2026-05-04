@@ -210,7 +210,7 @@ export default function Home() {
       <ContactSection />
       </section>
 
-
+      
     </main>
   );
 }
