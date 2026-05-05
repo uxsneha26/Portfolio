@@ -286,9 +286,9 @@ function PersonaCard({
             className={`${quoteFont.className} text-lg leading-relaxed text-gray-900 max-w-md`}
           >
             “The insights are there, but I need faster ways to{" "}
-            <Highlight color="#F0D3D3">validate insights</Highlight> and move
+            <Highlight color="#EEDDDD">validate insights</Highlight> and move
             toward{" "}
-            <Highlight color="#E6F0AA">decision-ready direction</Highlight>.”
+            <Highlight color="#D6E3B8">decision-ready direction</Highlight>.”
           </p>
           <div>
             <p
@@ -365,7 +365,7 @@ function StickyNotes({ ideas }: StickyNotesProps) {
     { bgClass: "bg-[#FFFBE6]", textClass: "text-[#5A4A12]" },
     { bgClass: "bg-[#EAF7EC]", textClass: "text-[#1F4D3A]" },
     { bgClass: "bg-[#EAF7F6]", textClass: "text-[#1E4A5A]" },
-    { bgClass: "bg-[#E6F0AA]", textClass: "text-[#3B4A12]" },
+    { bgClass: "bg-[#D6E3B8]", textClass: "text-[#3B4A12]" },
     { bgClass: "bg-[#F7F0FF]", textClass: "text-[#4A2C6B]" },
   ];
 
@@ -655,12 +655,12 @@ function ImpactMatrix({ ideas }: ImpactMatrixProps) {
                             const o = offsets[ideaIndex % offsets.length];
                             const highlightColor =
                               q.id === "HH"
-                                ? "#E6F0AA"
+                                ? "#D6E3B8"
                                 : q.id === "LH"
-                                  ? "#C7F2F0"
+                                  ? "#D1E8E9"
                                   : q.id === "HL"
-                                    ? "#FFFAB8"
-                                    : "#F0D3D3";
+                                    ? "#FFF4C8"
+                                    : "#EEDDDD";
 
                             return (
                               <motion.span
@@ -1190,7 +1190,7 @@ function UsabilityTestingSection() {
           >
             We conducted usability testing with GCC leaders, business
             operators, and strategy teams to understand how they interact with
-            the platform across core workflows. The insights revealed <Highlight color="#F0D3D3">critical
+            the platform across core workflows. The insights revealed <Highlight color="#EEDDDD">critical
             gaps in personalization, discoverability, and decision-making
             support, </Highlight>directly informing the final design directions.
           </p>
@@ -1434,7 +1434,7 @@ const finalExperienceScreens: FinalUIScreenSectionProps[] = [
     heading: "Search as the Entry Point",
     description:(
       <>
-      The home experience was reimagined as a <Highlight color="#E6F0AA">search-led interface,</Highlight> 
+      The home experience was reimagined as a <Highlight color="#D6E3B8">search-led interface,</Highlight> 
       transforming it from a passive dashboard into an active entry point.
       Instead of navigating through predefined structures, users can express
       intent directly and be guided toward relevant insights, tools, and actions
@@ -1475,9 +1475,9 @@ const finalExperienceScreens: FinalUIScreenSectionProps[] = [
     heading: "Decision Surfaces, Not Just Reports",
     description:(
       <>
-    Reports are structured as <Highlight color="#E6F0AA">interactive decision layers,</Highlight> where insights are
+    Reports are structured as <Highlight color="#D6E3B8">interactive decision layers,</Highlight> where insights are
     scannable, comparable, and directly tied to action. The focus shifts from
-    reading information to <Highlight color="#E6F0AA">evaluating and committing with clarity.</Highlight>
+    reading information to <Highlight color="#D6E3B8">evaluating and committing with clarity.</Highlight>
     </>
     ),
     imageSrc: "/final/reports.png",
@@ -1514,8 +1514,8 @@ const finalExperienceScreens: FinalUIScreenSectionProps[] = [
     heading: "A Live Layer of Market Intelligence",
     description:(
       <>
-    GCC Pulse surfaces what is changing in real time, bringing <Highlight color="#E6F0AA">relevant signals, shifts, and </Highlight>
-    <Highlight color="#E6F0AA"> emerging patterns </Highlight> into focus without requiring active tracking.
+    GCC Pulse surfaces what is changing in real time, bringing <Highlight color="#D6E3B8">relevant signals, shifts, and </Highlight>
+    <Highlight color="#D6E3B8"> emerging patterns </Highlight> into focus without requiring active tracking.
 </>
     ),
 imageSrc: "/final/gcc-pulse.png",
@@ -1548,7 +1548,7 @@ imageSrc: "/final/gcc-pulse.png",
     description:(
       <>
       High-value insights are surfaced through deliberate curation, bringing
-      the most <Highlight color="#E6F0AA"> relevant, timely, and impactful work </Highlight> into immediate view.
+      the most <Highlight color="#D6E3B8"> relevant, timely, and impactful work </Highlight> into immediate view.
       </>
     ),
     imageSrc: "/final/featured.png",
@@ -1581,7 +1581,7 @@ imageSrc: "/final/gcc-pulse.png",
     description:(
       <>
       Emerging queries surface what is gaining momentum, helping users
-      discover relevant topics through the <Highlight color="#E6F0AA">questions shaping the market.</Highlight>
+      discover relevant topics through the <Highlight color="#D6E3B8">questions shaping the market.</Highlight>
       </>
     ),
     imageSrc: "/final/trending.png",
@@ -1628,7 +1628,7 @@ function EditorialPageBreakerSection({
 }: EditorialPageBreakerSectionProps) {
   return (
     <section className="py-20 md:py-20 bg-[#f6f5ef]">
-      <div className="max-w-3xl mx-auto text-center px-6 md:px-0 space-y-12 md:space-y-20">
+      <div className="max-w-3xl h-full mx-auto text-center px-6 md:px-0 space-y-12 md:space-y-20">
         <p
           className={`${headingFont.className} text-xs uppercase tracking-[0.2em] text-gray-500`}
         >
@@ -1648,18 +1648,18 @@ function EditorialPageBreakerSection({
         <div className="relative max-w-2xl mx-auto pt-2 pb-10 md:pb-12 px-2">
           <span
             aria-hidden
-            className={`${bodyFont.className} absolute top-1 -left-0 md:left-0 text-[120px] leading-none text-[#9CC22A] opacity-70 select-none pointer-events-none`}
+            className={`${bodyFont.className} absolute top-1 -left-0 md:left-0 text-[120px] leading-none text-[#9CAD6A] opacity-70 select-none pointer-events-none`}
           >
             &ldquo;
           </span>
           <blockquote
-            className={`${bodyFont.className} relative z-10 mx-auto text-4xl text-[#9CC22A] text-center px-8 md:px-10 leading-snug font-normal`}
+            className={`${bodyFont.className} relative z-10 mx-auto text-4xl text-[#9CAD6A] text-center px-8 md:px-10 leading-snug font-normal`}
           >
             {quote}
           </blockquote>
           <span
             aria-hidden
-            className={`${bodyFont.className} absolute top-32 -right-1 md:right-1 text-[120px] leading-none text-[#9CC22A] opacity-70 select-none pointer-events-none`}
+            className={`${bodyFont.className} absolute top-32 -right-1 md:right-1 text-[120px] leading-none text-[#9CAD6A] opacity-70 select-none pointer-events-none`}
           >
             &rdquo;
           </span>
@@ -1950,7 +1950,7 @@ function CaseStudyClosingSection() {
                 assembling screens
               </span>{" "}
               to{" "}
-              <span className="bg-[#E6F0AA] px-1.5 py-0.5 rounded">
+              <span className="bg-[#D6E3B8] px-1.5 py-0.5 rounded">
                 shaping systems that support real decisions
               </span>.
             </p>
@@ -1963,7 +1963,7 @@ function CaseStudyClosingSection() {
                 context in reducing effort
               </span>{" "}
               for users. More importantly, it reinforced that{" "}
-              <span className="bg-[#F0D3D3] px-1.5 py-0.5 rounded">
+              <span className="bg-[#EEDDDD] px-1.5 py-0.5 rounded">
                 good design isn&apos;t about adding more
               </span>, but about{" "}
               <span className="bg-[rgba(219, 238, 192, 0.8)] px-1.5 py-0.5 rounded">
@@ -1972,7 +1972,7 @@ function CaseStudyClosingSection() {
             </p>
             <p>
               These are{" "}
-              <span className="bg-[#C7F2F0] px-1.5 py-0.5 rounded">
+              <span className="bg-[#D1E8E9] px-1.5 py-0.5 rounded">
                 principles I now carry into every problem I approach
               </span>.
             </p>
@@ -2167,7 +2167,7 @@ export default function Home() {
     </div>
   );
   return (
-    <main className="bg-[#eef2e6]">
+    <main className="bg-[#FBFBF2]">
 
       {/* HERO */}
       <div className="min-h-screen flex flex-col justify-center px-6 pt-20 md:pt-28">
@@ -2188,15 +2188,15 @@ export default function Home() {
           <p className= {`${bodyFont.className} mt-4 text-lg md:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto`}>
             Think of the leaders who run{" "}
             
-            <Highlight color="#F0D3D3">
+            <Highlight color="#EEDDDD">
               offshore strategy and innovation
             </Highlight>{" "}
             
             centres for global companies. Now imagine a platform where they don’t just read research, they{" "}
             
-            <Highlight color="#FFFAB8">discuss</Highlight>{" "}
-            <Highlight color="#FFFAB8">benchmark</Highlight>{" "}
-            <Highlight color="#FFFAB8">and use</Highlight>{" "}
+            <Highlight color="#FFF4C8">discuss</Highlight>{" "}
+            <Highlight color="#FFF4C8">benchmark</Highlight>{" "}
+            <Highlight color="#FFF4C8">and use</Highlight>{" "}
             
             it to make decisions.
           </p>
@@ -2212,7 +2212,7 @@ export default function Home() {
           className="mt-20 md:mt-24 relative flex justify-center items-center"
         >
           {/* Glow */}
-          <div className="absolute w-[600px] h-[600px] bg-[#E6F0AA] rounded-full blur-[140px] opacity-40 z-0"></div>
+          <div className="absolute w-[600px] h-[600px] bg-[#D6E3B8] rounded-full blur-[140px] opacity-40 z-0"></div>
 
           {/* Image */}
           <img
@@ -2328,13 +2328,13 @@ Worked at the intersection of strategy, research, and product thinking, to move 
         <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
           Zinnov works closely with teams of global companies that run their strategy, innovation, and technology centers out of India. These teams, often called{" "}
           
-          <Highlight color="#F0D3D3">
+          <Highlight color="#EEDDDD">
             Global Capability Centers
           </Highlight>{" "}
           
           play a critical role in driving{" "}
           
-          <Highlight color="#FFFAB8">
+          <Highlight color="#FFF4C8">
             growth decisions, market expansion
           </Highlight>{" "}
           
@@ -2350,13 +2350,13 @@ Worked at the intersection of strategy, research, and product thinking, to move 
         >
           “Thus, the project explores how that{" "}
           
-          <Highlight color="#E6F0AA">
+          <Highlight color="#D6E3B8">
             knowledge ecosystem
           </Highlight>{" "}
           
           could take shape as a{" "}
           
-          <Highlight color="#C7F2F0">
+          <Highlight color="#D1E8E9">
             digital product
           </Highlight>{" "}
           
@@ -2466,8 +2466,8 @@ Worked at the intersection of strategy, research, and product thinking, to move 
       currently operates across user journeys, research layers, and internal
       interventions.
       <br /><br />
-      While the system is robust, it <Highlight color="#F0D3D3">relies heavily on user interpretation,</Highlight>
-      <Highlight color="#F0D3D3">manual validation,</Highlight> and <Highlight color="#F0D3D3">fragmented pathways </Highlight> to arrive at meaningful
+      While the system is robust, it <Highlight color="#EEDDDD">relies heavily on user interpretation,</Highlight>
+      <Highlight color="#EEDDDD">manual validation,</Highlight> and <Highlight color="#EEDDDD">fragmented pathways </Highlight> to arrive at meaningful
       decisions.
     </p>
   </div>
@@ -2680,7 +2680,7 @@ Worked at the intersection of strategy, research, and product thinking, to move 
             From fragmented exploration to guided decision-making
           </h2>
           <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
-            We redesigned the service flow to <Highlight color="#E6F0AA">introduce clarity, reduce manual effort,</Highlight> and <Highlight color="#E6F0AA"> enable faster, more confident decisions.</Highlight>
+            We redesigned the service flow to <Highlight color="#D6E3B8">introduce clarity, reduce manual effort,</Highlight> and <Highlight color="#D6E3B8"> enable faster, more confident decisions.</Highlight>
           </p>
           <p
             className={`${bodyFont.className} mt-4 text-lg md:text-lg text-gray-700 leading-relaxed`}
@@ -2905,7 +2905,7 @@ function AdminPlatformWorkshopStickyNotes({
     { bgClass: "bg-[#FFFBE6]", textClass: "text-[#5A4A12]" },
     { bgClass: "bg-[#EAF7EC]", textClass: "text-[#1F4D3A]" },
     { bgClass: "bg-[#EAF7F6]", textClass: "text-[#1E4A5A]" },
-    { bgClass: "bg-[#E6F0AA]", textClass: "text-[#3B4A12]" },
+    { bgClass: "bg-[#D6E3B8]", textClass: "text-[#3B4A12]" },
     { bgClass: "bg-[#F7F0FF]", textClass: "text-[#4A2C6B]" },
   ];
 
@@ -3059,11 +3059,11 @@ function AdminPlatformPersonaCardRahul() {
             className={`${quoteFont.className} text-lg leading-relaxed text-gray-900 max-w-md`}
           >
             “I need one place to see{" "}
-            <Highlight color="#F0D3D3">client context</Highlight>
+            <Highlight color="#EEDDDD">client context</Highlight>
             {", "}
-            <Highlight color="#E6F0AA">proof points</Highlight>
+            <Highlight color="#D6E3B8">proof points</Highlight>
             {", and "}
-            <Highlight color="#C7F2F0">where each deal stands</Highlight>
+            <Highlight color="#D1E8E9">where each deal stands</Highlight>
             {" "}
             — without stitching spreadsheets and threads.”
           </p>
@@ -3134,7 +3134,7 @@ const adminPlatformFinalScreens: FinalUIScreenSectionProps[] = [
     description:(
       <>
     The dashboard consolidates tasks, signals, and performance metrics into a
-    <Highlight color="#E6F0AA"> single operational surface, </Highlight> enabling internal teams to monitor activity,
+    <Highlight color="#D6E3B8"> single operational surface, </Highlight> enabling internal teams to monitor activity,
     identify risks, and act without switching contexts. By structuring information
     across subscriptions, usage, and tool performance, it provides a continuous view
     of both system health and business momentum.
@@ -3185,7 +3185,7 @@ const adminPlatformFinalScreens: FinalUIScreenSectionProps[] = [
     description:(
       <>
       The account dashboard brings together contract details, engagement history,
-      and performance signals into a <Highlight color="#E6F0AA"> single, evolving view of each client.</Highlight> By connecting
+      and performance signals into a <Highlight color="#D6E3B8"> single, evolving view of each client.</Highlight> By connecting
       activity, stakeholders, and insights, it enables teams to understand account health,
       track progress over time, and act with full context, without relying on fragmented tools
       or manual follow-ups.
@@ -3231,7 +3231,7 @@ const adminPlatformFinalScreens: FinalUIScreenSectionProps[] = [
     description:(
       <>
       The profile usage view captures how individuals and teams interact with the platform
-      over time, translating activity into <Highlight color="#E6F0AA">meaningful behavioral patterns.</Highlight> By connecting
+      over time, translating activity into <Highlight color="#D6E3B8">meaningful behavioral patterns.</Highlight> By connecting
       queries, content consumption, and engagement signals, it enables internal teams to
       understand user intent, identify opportunities for intervention, and support more
       informed decision-making.
@@ -3282,8 +3282,8 @@ const adminPlatformFinalScreens: FinalUIScreenSectionProps[] = [
     description:(
       <>
     The task management system brings structure and visibility to internal workflows,
-    ensuring that work moves clearly across teams without fragmentation. By <Highlight color="#E6F0AA">defining
-    ownership, mapping </Highlight> <Highlight color="#E6F0AA">dependencies, and surfacing timelines,</Highlight> it enables teams to
+    ensuring that work moves clearly across teams without fragmentation. By <Highlight color="#D6E3B8">defining
+    ownership, mapping </Highlight> <Highlight color="#D6E3B8">dependencies, and surfacing timelines,</Highlight> it enables teams to
     coordinate effectively, track progress in real time, and reduce delays caused by
     unclear handoffs or missing context.
     </>
@@ -3333,7 +3333,7 @@ const adminPlatformFinalScreens: FinalUIScreenSectionProps[] = [
     description:(
       <>
     The queries interface centralizes inbound questions and transforms them
-    into <Highlight color="#E6F0AA"> structured, trackable conversations. </Highlight> By combining full history, <Highlight color="#E6F0AA">contextual metadata,</Highlight> and reusable responses, it enables teams to resolve
+    into <Highlight color="#D6E3B8"> structured, trackable conversations. </Highlight> By combining full history, <Highlight color="#D6E3B8">contextual metadata,</Highlight> and reusable responses, it enables teams to resolve
     contextual metadata, and reusable responses, it enables teams to resolve
     queries faster, maintain continuity across handoffs, and ensure that every
     interaction is informed by past context rather than repeated discovery.
@@ -3418,13 +3418,13 @@ function AdminPlatformCaseStudySection() {
         >
           “From business development to customer support and backend operations, this layer ensures that{" "}
           
-          <Highlight color="#E6F0AA">
+          <Highlight color="#D6E3B8">
           insights are delivered, queries are resolved 
           </Highlight>{" "}
           
           and {" "}
           
-          <Highlight color="#C7F2F0">
+          <Highlight color="#D1E8E9">
           workflows are executed
           </Highlight>{" "}
           
@@ -3450,8 +3450,8 @@ function AdminPlatformCaseStudySection() {
 
           <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
             Imagine you are part of the business development or customer support
-            team, <Highlight color="#E6F0AA">handling multiple client requests, tracking ongoing engagements,
-            and responding </Highlight>  <Highlight color="#E6F0AA">to queries </Highlight> that require quick, contextual insights.
+            team, <Highlight color="#D6E3B8">handling multiple client requests, tracking ongoing engagements,
+            and responding </Highlight>  <Highlight color="#D6E3B8">to queries </Highlight> that require quick, contextual insights.
             <br />
             <br />
             You rely on internal dashboards, reports, and communication loops to

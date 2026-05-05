@@ -240,8 +240,8 @@ const insightCards = [
       "Manages field leads, influencer onboarding, site visits, service requests, and lead-to-conversion tracking. Mapped to 50+ leads and influencers simultaneously.",
     quote:
     <>“I like to be{" "}
-              <Highlight color="#F0D3D3">organised with my work.</Highlight> But sometimes the{" "}
-              <Highlight color="#E6F0AA">tools feel ancient</Highlight>and hinder my performance.”
+              <Highlight color="#EEDDDD">organised with my work.</Highlight> But sometimes the{" "}
+              <Highlight color="#D6E3B8">tools feel ancient</Highlight>and hinder my performance.”
               </>
     ,
     expectations: [
@@ -271,8 +271,8 @@ const insightCards = [
       "Onboards and offboards dealers, monitors analytics, manages JCP (Journey Cycle Plan), oversees financials and loyalty for each dealer.",
     quote:
     <>“I want to be{" "}
-              <Highlight color="#F0D3D3">on top of everything</Highlight> that goes in my departments in terms o{" "}
-              <Highlight color="#E6F0AA">numbers."</Highlight>
+              <Highlight color="#EEDDDD">on top of everything</Highlight> that goes in my departments in terms o{" "}
+              <Highlight color="#D6E3B8">numbers."</Highlight>
               </>
     ,
     expectations: [
@@ -302,8 +302,8 @@ const insightCards = [
       "Manages 20–30 stakeholders monthly. Handles order placement, financial reconciliation, lead validation, contractor lifting oversight, and loyalty tracking, all across separate tools.",
     quote:
     <>“I'd like to be able to {" "}
-              <Highlight color="#F0D3D3">strategise and plan my goals</Highlight>  from a business point of view. I would {" "}
-              <Highlight color="#E6F0AA">love if the tools</Highlight> I use could help me achieve that."
+              <Highlight color="#EEDDDD">strategise and plan my goals</Highlight>  from a business point of view. I would {" "}
+              <Highlight color="#D6E3B8">love if the tools</Highlight> I use could help me achieve that."
               </>
       ,
     expectations: [
@@ -332,8 +332,8 @@ const insightCards = [
       "Runs a local construction materials store, serving contractors, individual home builders, and walk-in customers. Places orders through dealers and influences brand choice at the point of sale.",
     quote:
     <>“Customers ask for{" "}
-    <Highlight color="#F0D3D3">availability and price instantly.</Highlight>  If I don’t have clarity,{" "}
-    <Highlight color="#E6F0AA">I lose the sale."</Highlight>
+    <Highlight color="#EEDDDD">availability and price instantly.</Highlight>  If I don’t have clarity,{" "}
+    <Highlight color="#D6E3B8">I lose the sale."</Highlight>
     </>
     ,
     expectations: [
@@ -390,7 +390,7 @@ type DesignDirectionBlockProps = {
           CTS officers operate at the very start of the supply chain, where{" "}
           <Highlight>speed and clarity</Highlight> directly impact conversion.  
           The experience was designed to help them{" "}
-          <Highlight color="#F0D3D3">capture, track, and act on leads</Highlight> without losing momentum,  
+          <Highlight color="#EEDDDD">capture, track, and act on leads</Highlight> without losing momentum,  
           ensuring that no opportunity falls through gaps between systems or stakeholders.
         </>
       ),
@@ -430,7 +430,7 @@ type DesignDirectionBlockProps = {
         SFA acts as the backbone of the ecosystem, configuring how different stakeholders
         interact with the system. The focus was to <Highlight>simplify complex administrative workflows</Highlight>
         like onboarding, role management, and incentive structuring, ensuring that the system
-        remains <Highlight color="#E6F0AA">scalable and adaptable.</Highlight>
+        remains <Highlight color="#D6E3B8">scalable and adaptable.</Highlight>
         </>
         ),
       userFlowSrc: "/jkc/theme/sfa.png",
@@ -542,7 +542,7 @@ type DesignDirectionBlockProps = {
           <>
           "Retailers operate in high-frequency, low-margin environments where ease and
           speed matter most. The experience focused on <Highlight>making ordering seamless</Highlight> while
-          ensuring they <Highlight color="#E6F0AA">clearly understand the benefits and incentives</Highlight> tied to their actions.
+          ensuring they <Highlight color="#D6E3B8">clearly understand the benefits and incentives</Highlight> tied to their actions.
           </>
           ),
         userFlowSrc: "/jkc/theme/retailer.png",
@@ -747,7 +747,7 @@ function AdminImpactSection() {
             className={`${bodyFont.className} text-lg text-gray-700 leading-relaxed`}
           >
             The platform reduced coordination overhead, brought field operations online, 
-            and gave every stakeholder, <Highlight color="#E6F0AA"> from dealer to field officer, the visibility to act faster.</Highlight>
+            and gave every stakeholder, <Highlight color="#D6E3B8"> from dealer to field officer, the visibility to act faster.</Highlight>
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -838,14 +838,14 @@ export default function JKCCaseStudyPage() {
 <p className={`${bodyFont.className} mt-4 text-lg md:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto`}>
   Think of the complex network behind cement supply - internal sales teams tracking targets, dealers managing inventory, and on-ground stakeholders driving demand.
 
-  Now imagine a{" "} <Highlight color="#F0D3D3"> unified digital ecosystem
+  Now imagine a{" "} <Highlight color="#EEDDDD"> unified digital ecosystem
   </Highlight>{" "}
   where they don’t operate in silos, but{" "}
-  <Highlight color="#FFFAB8">
+  <Highlight color="#FFF4C8">
     coordinate seamlessly
   </Highlight>{" "}
   from lead generation to final delivery. A system designed not just to manage operations, but to enable{" "}
-  <Highlight color="#FFFAB8">
+  <Highlight color="#FFF4C8">
     faster decisions, better visibility, and scalable growth
   </Highlight>.
 </p>
@@ -867,7 +867,7 @@ export default function JKCCaseStudyPage() {
           <img
             src="/jkc/preview.png"
             alt="Zinnov Platform"
-            className="relative z-10 rounded-xl shadow-2xl shadow-[#D5C2D6] w-full max-w-3xl transition duration-500 ease-out hover:scale-[1.015] hover:shadow-[0_20px_60px_rgba(0,0,0,0.15)]"
+            className="relative z-10 rounded-xl shadow-2xl shadow-[#CFE2E4] w-full max-w-3xl transition duration-500 ease-out hover:scale-[1.015] hover:shadow-[0_20px_60px_rgba(0,0,0,0.05)]"
           />
         </motion.div>
 
@@ -980,7 +980,7 @@ export default function JKCCaseStudyPage() {
         <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
 
         India's cement industry runs on relationships. A manufacturer's reach depends not just on its
-        product, but on how well it enables its <Highlight color="#FFFAB8">dealers, field teams, retailers, 
+        product, but on how well it enables its <Highlight color="#FFF4C8">dealers, field teams, retailers, 
         and contractors</Highlight> to do their jobs every day.
 
         <br />
@@ -988,12 +988,12 @@ export default function JKCCaseStudyPage() {
 
         This leading cement manufacturer operates across 40+ countries with a strong domestic presence
         in grey cement, white cement, and wall putty. Their challenge wasn't brand recognition, it was
-        <Highlight color="#FFFAB8">coordination.</Highlight> 
+        <Highlight color="#FFF4C8">coordination.</Highlight> 
         
         <br />
         <br />
-        Thousands of stakeholders across the supply chain were <Highlight color="#F0D3D3">managing orders, leads, loyalty</Highlight>
-        <Highlight color="#F0D3D3">schemes, and site visits </Highlight>through fragmented tools, manual processes, and phone calls.
+        Thousands of stakeholders across the supply chain were <Highlight color="#EEDDDD">managing orders, leads, loyalty</Highlight>
+        <Highlight color="#EEDDDD">schemes, and site visits </Highlight>through fragmented tools, manual processes, and phone calls.
 
         This lack of connectedness creates gaps in communication, visibility, and decision-making,
         leading to delays, missed opportunities, and frustrated stakeholders.
@@ -1010,11 +1010,11 @@ export default function JKCCaseStudyPage() {
           in Gurgaon, a contractor in Rohtak, and a sales officer in a remote depot could all
           {" "}
           
-          <Highlight color="#E6F0AA">
+          <Highlight color="#D6E3B8">
           do their jobs confidently,
           </Highlight>{" "}
           
-          <Highlight color="#C7F2F0">
+          <Highlight color="#D1E8E9">
           on one connected platform.{" "}
           
           </Highlight>{" "}
@@ -1125,8 +1125,8 @@ export default function JKCCaseStudyPage() {
           </h2>
           <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
           With clarity on the system and its flows, we focused on the <Highlight>people driving it.</Highlight>
-          Personas helped distill <Highlight color="#F0D3D3">recurring behaviors, decision triggers, and operational
-          constraints,</Highlight> turning abstract workflows into <Highlight color="#E6F0AA">actionable design anchors.</Highlight>  
+          Personas helped distill <Highlight color="#EEDDDD">recurring behaviors, decision triggers, and operational
+          constraints,</Highlight> turning abstract workflows into <Highlight color="#D6E3B8">actionable design anchors.</Highlight>  
           </p>
         </div>
 
@@ -1175,10 +1175,10 @@ export default function JKCCaseStudyPage() {
           <p
             className={`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}
           >
-            We mapped <Highlight color="#E6F0AA">end-to-end user flows across stakeholders, </Highlight> tracing how leads are generated, 
+            We mapped <Highlight color="#D6E3B8">end-to-end user flows across stakeholders, </Highlight> tracing how leads are generated, 
             orders are processed, and decisions are made across the system.
             This revealed critical gaps and overlaps, allowing us to restructure workflows into a 
-            <Highlight color="#FFFAB8">cohesive, scalable experience</Highlight> that supports real-world operations.
+            <Highlight color="#FFF4C8">cohesive, scalable experience</Highlight> that supports real-world operations.
           </p>
         </div>
     <div className="relative w-full rounded-2xl overflow-hidden border border-[#dfe6d5] shadow-[0_18px_44px_rgba(0,0,0,0.08)] bg-[#eef0e8]">
@@ -1243,19 +1243,19 @@ export default function JKCCaseStudyPage() {
           >
             <p>
             This project didn't just add to my portfolio, {" "}
-              <span className="bg-[#E6F0AA] px-1.5 py-0.5 rounded">
+              <span className="bg-[#D6E3B8] px-1.5 py-0.5 rounded">
               it recalibrated how I think.
               </span>.
             </p>
             <p>
             Designing for one user is hard. Designing for seven,{" "}
-              <span className="bg-[#F0D3D3] px-1.5 py-0.5 rounded">
+              <span className="bg-[#EEDDDD] px-1.5 py-0.5 rounded">
               each with different goals, different contexts, and different relationships to technology
               </span>, requires you to hold the whole system in your head while solving for one screen at a time.{" "}
             </p>
             <p>
             The biggest lesson: {" "}
-              <span className="bg-[#C7F2F0] px-1.5 py-0.5 rounded">
+              <span className="bg-[#D1E8E9] px-1.5 py-0.5 rounded">
               design earns trust quietly.
               </span>
               Not through visual polish, but through getting the details right for people who have real work to do.

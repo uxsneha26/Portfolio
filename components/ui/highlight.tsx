@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function Highlight({
   children,
-  color = "#FFFAB8",
+  color = "#FFF4C8",
 }: {
   children: React.ReactNode;
   color?: string;

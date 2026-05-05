@@ -89,17 +89,17 @@ export function TriangulationSection({
           <br />
           <br />
           Each application came with its own set of{" "}
-          <Highlight color="#FFFAB8">features</Highlight>,{" "}
-          <Highlight color="#FFFAB8">workflows</Highlight>, and{" "}
-          <Highlight color="#FFFAB8">success metrics,</Highlight> spread across detailed
+          <Highlight color="#FFF4C8">features</Highlight>,{" "}
+          <Highlight color="#FFF4C8">workflows</Highlight>, and{" "}
+          <Highlight color="#FFF4C8">success metrics,</Highlight> spread across detailed
           documentation and shaped by different stakeholders. Looking at them in
-          isolation only added to the <Highlight color="#F0D3D3">complexity</Highlight>.
+          isolation only added to the <Highlight color="#EEDDDD">complexity</Highlight>.
           <br />
           <br />
           To make sense of it, we stepped back and examined the system from three
-          lenses, what the <Highlight color="#E6F0AA">business intended</Highlight>, how users{" "}
-          <Highlight color="#E6F0AA">actually operated</Highlight>, and how these could translate into{" "}
-          <Highlight color="#C7F2F0">structured digital experiences</Highlight>.
+          lenses, what the <Highlight color="#D6E3B8">business intended</Highlight>, how users{" "}
+          <Highlight color="#D6E3B8">actually operated</Highlight>, and how these could translate into{" "}
+          <Highlight color="#D1E8E9">structured digital experiences</Highlight>.
         </>
 </div>
 </div>
@@ -180,13 +180,13 @@ Bringing these perspectives together revealed not just{" "}
     <br />
     While the business defined clear structures and users adapted through
     workarounds, the system itself lacked <Highlight>cohesion</Highlight>.
-    Information was <Highlight color="#F0D3D3">fragmented</Highlight>, workflows were{" "}
-    <Highlight color="#F0D3D3">disconnected</Highlight>, and decision-making relied heavily on{" "}
-    <Highlight color="#F0D3D3">manual effort</Highlight>.
+    Information was <Highlight color="#EEDDDD">fragmented</Highlight>, workflows were{" "}
+    <Highlight color="#EEDDDD">disconnected</Highlight>, and decision-making relied heavily on{" "}
+    <Highlight color="#EEDDDD">manual effort</Highlight>.
     <br />
     <br />
     These insights formed the foundation for defining the{" "}
-    <Highlight color="#E6F0AA">core problem</Highlight>.
+    <Highlight color="#D6E3B8">core problem</Highlight>.
         </>
 </div>
 </div>

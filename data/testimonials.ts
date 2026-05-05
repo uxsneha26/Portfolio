@@ -75,7 +75,7 @@ export const testimonials: Testimonial[] = [
     name: "Doris Santhus",
     designation: "Prncipal UX Designer",
     company: "Lollypop Design Studio",
-    text: "She connected narrative to UI without over-designing—our campaigns and product finally felt like one story.",
+    text: "Sneha is diligent and extremely hard working. She can own a project and does whatever it takes to see the project through the finish line. I have worked with her on a couple of projects and have seen her consistently grow more confident in making design decisions in the last few years.",
     image: "/testimonials/7.jpg",
     linkedin: "https://www.linkedin.com/",
     color: "beige",
