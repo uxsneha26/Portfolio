@@ -241,7 +241,7 @@ const insightCards = [
     quote:
     <>“I like to be{" "}
               <Highlight color="#EEDDDD">organised with my work.</Highlight> But sometimes the{" "}
-              <Highlight color="#D6E3B8">tools feel ancient</Highlight>and hinder my performance.”
+              <Highlight color="#E0ECC1">tools feel ancient</Highlight>and hinder my performance.”
               </>
     ,
     expectations: [
@@ -272,7 +272,7 @@ const insightCards = [
     quote:
     <>“I want to be{" "}
               <Highlight color="#EEDDDD">on top of everything</Highlight> that goes in my departments in terms o{" "}
-              <Highlight color="#D6E3B8">numbers."</Highlight>
+              <Highlight color="#E0ECC1">numbers."</Highlight>
               </>
     ,
     expectations: [
@@ -303,7 +303,7 @@ const insightCards = [
     quote:
     <>“I'd like to be able to {" "}
               <Highlight color="#EEDDDD">strategise and plan my goals</Highlight>  from a business point of view. I would {" "}
-              <Highlight color="#D6E3B8">love if the tools</Highlight> I use could help me achieve that."
+              <Highlight color="#E0ECC1">love if the tools</Highlight> I use could help me achieve that."
               </>
       ,
     expectations: [
@@ -333,7 +333,7 @@ const insightCards = [
     quote:
     <>“Customers ask for{" "}
     <Highlight color="#EEDDDD">availability and price instantly.</Highlight>  If I don’t have clarity,{" "}
-    <Highlight color="#D6E3B8">I lose the sale."</Highlight>
+    <Highlight color="#E0ECC1">I lose the sale."</Highlight>
     </>
     ,
     expectations: [
@@ -430,7 +430,7 @@ type DesignDirectionBlockProps = {
         SFA acts as the backbone of the ecosystem, configuring how different stakeholders
         interact with the system. The focus was to <Highlight>simplify complex administrative workflows</Highlight>
         like onboarding, role management, and incentive structuring, ensuring that the system
-        remains <Highlight color="#D6E3B8">scalable and adaptable.</Highlight>
+        remains <Highlight color="#E0ECC1">scalable and adaptable.</Highlight>
         </>
         ),
       userFlowSrc: "/jkc/theme/sfa.png",
@@ -542,7 +542,7 @@ type DesignDirectionBlockProps = {
           <>
           "Retailers operate in high-frequency, low-margin environments where ease and
           speed matter most. The experience focused on <Highlight>making ordering seamless</Highlight> while
-          ensuring they <Highlight color="#D6E3B8">clearly understand the benefits and incentives</Highlight> tied to their actions.
+          ensuring they <Highlight color="#E0ECC1">clearly understand the benefits and incentives</Highlight> tied to their actions.
           </>
           ),
         userFlowSrc: "/jkc/theme/retailer.png",
@@ -707,18 +707,18 @@ type DesignDirectionBlockProps = {
         <div className="relative max-w-2xl mx-auto pt-2 pb-10 md:pb-12 px-2">
           <span
             aria-hidden
-            className={`${bodyFont.className} absolute top-1 -left-0 md:left-0 text-[120px] leading-none text-[#9CC22A] opacity-70 select-none pointer-events-none`}
+            className={`${bodyFont.className} absolute top-1 -left-0 md:left-0 text-[120px] leading-none text-[#9CAD6A] opacity-70 select-none pointer-events-none`}
           >
             &ldquo;
           </span>
           <blockquote
-            className={`${bodyFont.className} relative z-10 mx-auto text-4xl text-[#9CC22A] text-center px-8 md:px-10 leading-snug font-normal`}
+            className={`${bodyFont.className} relative z-10 mx-auto text-4xl text-[#9CAD6A] text-center px-8 md:px-10 leading-snug font-normal`}
           >
             {quote}
           </blockquote>
           <span
             aria-hidden
-            className={`${bodyFont.className} absolute top-32 -right-1 md:right-1 text-[120px] leading-none text-[#9CC22A] opacity-70 select-none pointer-events-none`}
+            className={`${bodyFont.className} absolute top-32 -right-1 md:right-1 text-[120px] leading-none text-[#9CAD6A] opacity-70 select-none pointer-events-none`}
           >
             &rdquo;
           </span>
@@ -747,7 +747,7 @@ function AdminImpactSection() {
             className={`${bodyFont.className} text-lg text-gray-700 leading-relaxed`}
           >
             The platform reduced coordination overhead, brought field operations online, 
-            and gave every stakeholder, <Highlight color="#D6E3B8"> from dealer to field officer, the visibility to act faster.</Highlight>
+            and gave every stakeholder, <Highlight color="#E0ECC1"> from dealer to field officer, the visibility to act faster.</Highlight>
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -1010,7 +1010,7 @@ export default function JKCCaseStudyPage() {
           in Gurgaon, a contractor in Rohtak, and a sales officer in a remote depot could all
           {" "}
           
-          <Highlight color="#D6E3B8">
+          <Highlight color="#E0ECC1">
           do their jobs confidently,
           </Highlight>{" "}
           
@@ -1126,7 +1126,7 @@ export default function JKCCaseStudyPage() {
           <p className= {`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}>
           With clarity on the system and its flows, we focused on the <Highlight>people driving it.</Highlight>
           Personas helped distill <Highlight color="#EEDDDD">recurring behaviors, decision triggers, and operational
-          constraints,</Highlight> turning abstract workflows into <Highlight color="#D6E3B8">actionable design anchors.</Highlight>  
+          constraints,</Highlight> turning abstract workflows into <Highlight color="#E0ECC1">actionable design anchors.</Highlight>  
           </p>
         </div>
 
@@ -1175,7 +1175,7 @@ export default function JKCCaseStudyPage() {
           <p
             className={`${bodyFont.className} text-lg md:text-xl text-gray-700 leading-relaxed`}
           >
-            We mapped <Highlight color="#D6E3B8">end-to-end user flows across stakeholders, </Highlight> tracing how leads are generated, 
+            We mapped <Highlight color="#E0ECC1">end-to-end user flows across stakeholders, </Highlight> tracing how leads are generated, 
             orders are processed, and decisions are made across the system.
             This revealed critical gaps and overlaps, allowing us to restructure workflows into a 
             <Highlight color="#FFF4C8">cohesive, scalable experience</Highlight> that supports real-world operations.
@@ -1243,7 +1243,7 @@ export default function JKCCaseStudyPage() {
           >
             <p>
             This project didn't just add to my portfolio, {" "}
-              <span className="bg-[#D6E3B8] px-1.5 py-0.5 rounded">
+              <span className="bg-[#E0ECC1] px-1.5 py-0.5 rounded">
               it recalibrated how I think.
               </span>.
             </p>

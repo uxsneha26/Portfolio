@@ -97,8 +97,8 @@ export function TriangulationSection({
           <br />
           <br />
           To make sense of it, we stepped back and examined the system from three
-          lenses, what the <Highlight color="#D6E3B8">business intended</Highlight>, how users{" "}
-          <Highlight color="#D6E3B8">actually operated</Highlight>, and how these could translate into{" "}
+          lenses, what the <Highlight color="#E0ECC1">business intended</Highlight>, how users{" "}
+          <Highlight color="#E0ECC1">actually operated</Highlight>, and how these could translate into{" "}
           <Highlight color="#D1E8E9">structured digital experiences</Highlight>.
         </>
 </div>
@@ -186,7 +186,7 @@ Bringing these perspectives together revealed not just{" "}
     <br />
     <br />
     These insights formed the foundation for defining the{" "}
-    <Highlight color="#D6E3B8">core problem</Highlight>.
+    <Highlight color="#E0ECC1">core problem</Highlight>.
         </>
 </div>
 </div>
