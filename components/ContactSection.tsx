@@ -8,7 +8,7 @@ import { FiCopy } from "react-icons/fi";
 const CONTACT_EMAIL = "design.snehasharma@gmail.com";
 const LINKEDIN_URL = "https://www.linkedin.com/in/your-profile";
 const PDF_URL =
-  "https://drive.google.com/file/d/10UN5Wte0jC_jHgDYVLy5rmR8GyDpqJYn/view?usp=sharing";
+  "https://drive.google.com/file/d/1XQfJtjAO_LUw5__QiTon4aBHQ0A5N_xl/view?usp=sharing";
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -105,7 +105,7 @@ export function ContactSection() {
 
               <div className="flex min-w-0 justify-center md:justify-end">
                 <a
-                  href={"https://drive.google.com/file/d/10UN5Wte0jC_jHgDYVLy5rmR8GyDpqJYn/view?usp=sharing"}
+                  href={"https://drive.google.com/file/d/1XQfJtjAO_LUw5__QiTon4aBHQ0A5N_xl/view?usp=sharing"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative block aspect-[4/3] w-full max-w-md overflow-hidden rounded-2xl border border-neutral-200/70 bg-white/40 shadow-sm backdrop-blur-sm transition duration-300 ease-out hover:scale-[1.02] hover:opacity-[0.98]"
