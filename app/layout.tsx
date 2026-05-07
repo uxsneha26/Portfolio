@@ -29,8 +29,8 @@ const bodyFont = Crimson_Text({
   weight: ["400", "600"],
 });
 
-export const metadata: Metadata = {
-  title: "Zinnov Case Study",
-  description: "Designing Decision Intelligence",
+export const metadata = {
+  title: "Sneha Sharma | Product Designer",
+  description: "Portfolio of Sneha Sharma",
 };
 
