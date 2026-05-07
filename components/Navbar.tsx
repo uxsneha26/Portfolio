@@ -122,33 +122,37 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
 
         
           <Link
-            href="/projects"
+            href="/"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "projects" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {
               if (pathname === "/") {
                 e.preventDefault();
                 scrollToSection("projects");
+              } else {
+                sessionStorage.setItem("scroll-target", "projects");
               }
             }}
           >
             Works
           </Link>
           <Link
-            href="/personal"
+            href="/"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "personal" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {
               if (pathname === "/") {
                 e.preventDefault();
                 scrollToSection("personal");
+              } else {
+                sessionStorage.setItem("scroll-target", "personal");
               }
             }}
           >
             Gallery
           </Link>
           <Link
-            href="/hero"
+            href="/"
             scroll={false}
             className={`${caveat.className} text-[18px] md:text-[28px] leading-none transition-colors duration-300 ${
               active === "hero"
@@ -159,19 +163,23 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
               if (pathname === "/") {
                 e.preventDefault();
                 scrollToSection("hero");
+              } else {
+                sessionStorage.setItem("scroll-target", "hero");
               }
             }}
           >
             SS
           </Link>
           <Link
-            href="/contact"
+            href="/"
             scroll={false}
             className={`${bodySerif.className} ${linkBase} ${active === "contact" ? "text-[#a8a29e]" : ""}`}
             onClick={(e) => {
               if (pathname === "/") {
                 e.preventDefault();
                 scrollToSection("contact");
+              } else {
+                sessionStorage.setItem("scroll-target", "contact");
               }
             }}
           >

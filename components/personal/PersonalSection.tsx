@@ -97,6 +97,15 @@ export function PersonalSection() {
     "/images/gallery/painting-4.png",
     "/images/gallery/painting-5.png",
     "/images/gallery/painting-6.png",
+    "/images/gallery/painting-7.png",
+    "/images/gallery/painting-8.png",
+    "/images/gallery/painting-9.png",
+    "/images/gallery/painting-10.png",
+    "/images/gallery/painting-11.png",
+    "/images/gallery/painting-12.png",
+    "/images/gallery/painting-13.png",
+    "/images/gallery/painting-14.png",
+    "/images/gallery/painting-15.png",
   ]}
   className="h-[320px] min-w-0 flex-[1]"
   frontTitle="painting"

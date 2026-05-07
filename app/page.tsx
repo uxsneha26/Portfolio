@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useState, useEffect } from "react";
 import { Caveat, Crimson_Text, Jost, Instrument_Serif } from "next/font/google";
 import { ArchitectureLearningSection } from "@/components/architecture-learning/ArchitectureLearningSection";
 import { PersonalSection } from "@/components/personal/PersonalSection";
@@ -9,6 +9,7 @@ import { SelectedProjectsSection } from "@/components/selected-projects/Selected
 import { TestimonialsSection } from "@/components/testimonials/TestimonialsSection";
 import TestimonialsSectionalt from "@/components/testimonials/TestimonialsSectionalt";
 import { Navbar } from "@/components/Navbar";
+
 
   const handwrittenFont = Caveat({
     subsets: ["latin"],
@@ -143,6 +144,21 @@ function InteractivePortrait() {
 }
 
 export default function Home() {
+  useEffect(() => {
+    const target = sessionStorage.getItem("scroll-target");
+
+    if (target) {
+      sessionStorage.removeItem("scroll-target");
+
+      requestAnimationFrame(() => {
+        document.getElementById(target)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+    }
+  }, []);
+
   return (
     <main
       className="bg-[#f2ebe3] bg-[radial-gradient(ellipse_85%_65%_at_15%_10%,rgba(232,223,212,0.55)_0%,transparent_52%),radial-gradient(ellipse_70%_50%_at_90%_85%,rgba(221,212,200,0.35)_0%,transparent_48%)]"
