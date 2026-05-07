@@ -62,7 +62,7 @@ export function PersonalSection() {
             
 
             {/* Foreground: heading in flow with bento row (shared top baseline) */}
-            <div className="relative z-10 flex h-[80vh] w-full flex-col justify-center px-12 pb-14 pt-20 md:px-20 md:pb-18 md:pt-24 lg:px-24">
+            <div className="relative z-10 flex h-[95vh] w-full flex-col justify-center px-12 pb-14 pt-20 md:px-20 md:pb-18 md:pt-24 lg:px-24">
             <div className="flex w-full min-w-0 items-center gap-12 flex-1">
                 {/* A: intro copy + Card 1 */}
                 <div className="flex min-w-0 flex-[1] flex-col gap-6 h-full">
