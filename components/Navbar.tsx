@@ -9,7 +9,7 @@ const DEFAULT_RESUME_HREF =
   "https://drive.google.com/file/d/REPLACE_WITH_FILE_ID/view?usp=sharing";
 
   const linkBase =
-  "text-[15px] md:text-[20px] tracking-wide text-[#3d3832] transition-colors duration-300 hover:text-[#a8a29e]";
+  "text-[18px] md:text-[20px] tracking-wide text-[#3d3832] transition-colors duration-300 hover:text-[#a8a29e]";
 
 function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -90,6 +90,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
 
   return (
     <nav
+  style={{ overflowX: "clip" }}
     className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ease-out ${
       visible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
     }`}
@@ -118,7 +119,7 @@ export function Navbar({ resumeHref = DEFAULT_RESUME_HREF }: { resumeHref?: stri
 
 {/* CONTENT CONTAINER */}
 <div className="relative mx-auto max-w-6xl px-6 py-5 md:py-6">
-  <div className="relative flex h-full items-center justify-center gap-x-8">
+<div className="relative flex h-full items-center justify-center gap-x-4 md:gap-x-8 px-2 md:px-0">
 
         
           <Link

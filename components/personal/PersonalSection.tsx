@@ -38,7 +38,7 @@ export function PersonalSection() {
       
       
       <div className="relative z-30 -mt-[90vh] md:-mt-[80vh] lg:-mt-[90vh] w-full min-h-[200vh]">
-        <div className="sticky top-0 h-screen w-full overflow-hidden">
+      <div className="sticky top-0 h-screen w-full overflow-hidden">
         <div className="absolute inset-0 -z-10">
         <Image
           src="/images/BG2.png" // replace with your file
@@ -62,10 +62,11 @@ export function PersonalSection() {
             
 
             {/* Foreground: heading in flow with bento row (shared top baseline) */}
-            <div className="relative z-10 flex h-[95vh] w-full flex-col justify-center px-12 pb-14 pt-20 md:px-20 md:pb-18 md:pt-24 lg:px-24">
-            <div className="flex w-full min-w-0 items-center gap-12 flex-1">
+            <div className="relative z-10 h-full w-full overflow-y-auto overscroll-contain scrollbar-hide">
+  <div className="flex min-h-full w-full flex-col px-5 pb-24 pt-20 md:h-[95vh] md:justify-center md:px-20 md:pb-18 md:pt-24 lg:px-24">
+            <div className="flex w-full min-w-0 flex-col md:flex-row items-center md:items-stretch gap-8 md:gap-12 flex-1">
                 {/* A: intro copy + Card 1 */}
-                <div className="flex min-w-0 flex-[1] flex-col gap-6 h-full">
+                <div className="flex min-w-0 w-full md:flex-[1] flex-col gap-6 h-full">
   <div className="shrink-0">
     <h2
       id="personal-section-heading"
@@ -83,7 +84,7 @@ export function PersonalSection() {
 
   <PoemCard
     {...musingsCardProps}
-    className="mt-auto h-[300px] md:h-[320px]"
+    className="mt-auto w-full h-[300px] md:h-[320px]"
   />
 </div>
 
@@ -107,7 +108,7 @@ export function PersonalSection() {
     "/images/gallery/painting-14.png",
     "/images/gallery/painting-15.png",
   ]}
-  className="h-[320px] min-w-0 flex-[1]"
+  className="w-full h-[320px] min-w-0 md:flex-[1]"
   frontTitle="painting"
   frontImage="/images/painting.png"
   backTitle="Making art"
@@ -125,7 +126,7 @@ enableImageOverlay={false}
                 {/* B: Cards 3 & 4 */}
                 <div className="flex min-w-0 flex-[1] flex-col gap-12 h-full">
                   
-                  <MusicCard className="h-[240px]"
+                  <MusicCard className="w-full h-[240px]"
   title="Brooklyn by The Midnight"
   artist="You're listening to"
   coverImage="/images/music-cover.png"
@@ -137,11 +138,12 @@ enableImageOverlay={false}
 
 <PoemCard
   {...artCardProps}
-className="h-full"
+className="w-full h-full"
 />
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

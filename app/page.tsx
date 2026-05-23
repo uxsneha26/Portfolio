@@ -95,7 +95,7 @@ function InteractivePortrait() {
   }, []);
 
   return (
-    <div className="flex w-full flex-col items-start md:w-auto md:items-start">
+    <div className="flex w-full flex-col items-center md:w-auto md:items-start">
       <p
         className={`${handwrittenFont.className} relative z-10 mb-1 text-2xl text-neutral-600 md:-mb-2 md:mb-0`}
       >
@@ -168,21 +168,21 @@ export default function Home() {
       
       <div
   id="hero"
-  className="relative z-10 mx-auto flex min-h-[80vh] max-w-6xl flex-col items-center justify-center gap-16 px-6 pt-16 pb-12 md:flex-row md:items-center md:pt-20 md:pb-16"
+  className="relative z-10 mx-auto flex min-h-[80vh] max-w-6xl flex-col items-center justify-center gap-8 md:gap-16 px-6 pt-16 pb-12 md:flex-row md:items-center md:pt-20 md:pb-16"
 >
       <InteractivePortrait />
 
-        <div className="w-full max-w-xl shrink-0 text-left md:flex-1 md:min-w-0">
-          <div className="space-y-10 md:space-y-2">
+      <div className="w-full max-w-xl shrink-0 text-center md:flex-1 md:min-w-0 md:text-left">
+          <div className="space-y-2 md:space-y-2">
           
-              <p className={`${instrumentSerif.className} text-xs leading-relaxed tracking-[0.1em] uppercase text-[#BEA3A0] md:text-6xl lg:text-2xl`}>
+              <p className={`${instrumentSerif.className} text-xl leading-relaxed tracking-[0.1em] uppercase text-[#BEA3A0] md:text-2xl lg:text-2xl`}>
               Product Designer
               </p>
-              <p className={`${handwrittenFont.className} text-balance text-5xl font-normal leading-tight tracking-tight text-neutral-800 md:text-8xl lg:text-2xl`}>
+              <p className={`${handwrittenFont.className} text-balance text-2xl font-normal leading-tight tracking-tight text-neutral-800 md:text-2xl lg:text-2xl`}>
               whose work is shaped by
               </p>
             <h1
-              className={`${instrumentSerif.className} text-balance text-5xl font-normal leading-tight tracking-relaxed text-neutral-800 md:text-6xl lg:text-6xl`}
+              className={`${instrumentSerif.className} text-balance text-5xl font-normal leading-[1.2] md:leading-none lg:leading-[1.2] tracking-relaxed text-neutral-800 md:text-4xl lg:text-6xl`}
             >
               <span className="block">
     spatial structure{" "}
@@ -212,13 +212,18 @@ export default function Home() {
         </div>
       </div>
 
-      <section id="projects">
+      <section id="projects" className="pt-48 md:pt-0">
       <SelectedProjectsSection />
       </section>
 
-
+      <section id="projects" className="pt-48 md:pt-0">
       <TestimonialsSection />
+      </section>
+
+      <section id="projects" className="pt-48 md:pt-0">
       <TestimonialsSectionalt />
+      </section>
+
       <ArchitectureLearningSection />
 
       <section id="personal">

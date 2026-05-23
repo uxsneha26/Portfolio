@@ -52,6 +52,17 @@ html, body, * {
   cursor: none !important;
 }
 
+@keyframes cardSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(120px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
 
 @keyframes music-card-ambient-glow {
   0%,
@@ -136,6 +147,15 @@ html, body, * {
   #resume {
     width: 210mm;
   }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 /* About page — scroll reveal (IntersectionObserver adds .is-visible) */

@@ -70,7 +70,7 @@ export default function TestimonialsSectionalt() {
   </div>
 
   {/* RIGHT — image */}
-  <div className="md:w-[48%] relative group">
+  <div className="w-[full] md:w-[48%] lg:w-[48%] relative group">
     <Image
       src="/images/room-sketch.png"
       alt="Architectural sketch"
